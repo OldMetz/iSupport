@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	padding: 0px;
+	font: 10px normal Verdana, Arial, Helvetica, sans-serif;
+}
+
+#support {
+	padding: 0px 150px 0px 150px;
+}
+
+#support ul {
+	margin: 0px 0;
+	border: 1px solid #0101DF;
+}
+#support ul li {
+	margin: 0;
+	padding: 0px;
+	color: #0101DF;
+	font-size: 1.7em;
+	font-weight: bold;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	background: #FFFFFF;
+}
+
+#support ul li h2{
+	font-size: 0.9em;
+	padding: 0px 0;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #333;
+	color: #0101DF;
+}
+
+#support ul li p {
+	color: #FFFFFF;
+	font-size: 0.7em;
+	font-weight: normal;
+	line-height: 1.6em;
+}
+
+#support ul li form {
+	display: inline;
+}
+
+#support table {
+	background-color:white
+	
+}
+
+#support th {
+	background-color:#0101DF;
+	color:white
+}
+
+#support tr {
+	background-color:#C0C0C0
+}
+
+h1 {
+	font: 5em normal Georgia, 'Times New Roman', Times, serif;
+	text-align:center;
+	padding-bottom: 10px;
+	color:#0101DF;
+}
+h1 span { color: #0101DF; }
+h1 small{
+	font: 0.2em normal Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing: 1.5em;
+	display: block;
+	color: #0101DF;
+}
+
+p {
+	font: 2em normal Verdana, Arial, Helvetica, sans-serif;
+	/*text-transform:uppercase;*/
+	/*letter-spacing: 1.5em;*/
+	/*display: block;*/
+	color: #0101DF;
+}
+
+/* Menu styling */
+
+#links {
+   border-top:	solid #0101DF 1px; /*Top Line in Heading*/
+   border-bottom: solid #0101DF 1px; /*Bottom Line in Heading*/
+   text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 40px;
+   font-size: 2.0em;
+   color: #0101DF;
+}
+
+#links ul {
+   margin: 0px;
+   padding: 0px;
+   font-size: 110%;
+   color: #0101DF;
+   line-height: 30px;
+}
+
+#links li {
+   list-style-type:	none;
+   display: inline;
+   white-space: nowrap;
+}
+
+#links li a { 
+   padding: 7px 10px;
+   color: #0101DF;
+   border: none;
+}
+
+#links li a:link {
+   color: #0101DF;
+   text-decoration: none; 
+}
+
+#links li a:visited {
+   color: #0101DF;
+   text-decoration: none; 
+}
+
+#links li a:hover {
+   color:	#FFFFFF;
+   background-color: #0101DF;  
+   text-decoration: none; 
+}
+
+#footer {
+margin-left:0px;
+margin-top: 50px;
+border-top: 1px solid;
+text-align: center;
+background:#111111 none repeat scroll 0 0;
+float:left;
+width:100%;
+}
+
+#addBook form {
+	font-size:150%;
+    margin-left: auto ;
+    margin-right: auto ;
+	text-align:center;
+	width:500px;
+}
+
+#addBook form label {
+  float:left;
+  width:100px;
+  margin-top: 0;
+  text-align:right;
+  font-weight:bold;
+}
+
+#addBook form input {
+	margin-left:20px;
+	margin-right:20px;
+	width: 300px;
+}
+
+.error {
+  font-size: 0.7em; color: #C00; margin-left: 150px;
+  text-align: left;
+  margin-top: 0px;
+  
+}
